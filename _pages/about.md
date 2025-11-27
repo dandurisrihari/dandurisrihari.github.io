@@ -1,13 +1,23 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
 layout: single
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header-bg.jpg
+toc: true
+toc_label: "Quick Navigation"
+toc_icon: "cog"
 ---
 
 ## Summary
 
-PhD student and researcher with extensive experience in system software development, specializing in low-level software security, drivers, firmware, operating systems, and runtime libraries. My current research focuses on analyzing the design of the latest edge AI systems to understand different design choices and explore their system security aspects.
+PhD student and researcher with extensive experience in **system software development**, specializing in low-level software security, drivers, firmware, operating systems, and runtime libraries. My current research focuses on analyzing the design of the latest **edge AI systems** to understand different design choices and explore their **system security aspects**.
+
+{: .notice--info}
+**Current Research:** Investigating security vulnerabilities in Edge AI accelerators and exploring potential confused deputy attacks between application processors and AI hardware.
 
 ## Education
 

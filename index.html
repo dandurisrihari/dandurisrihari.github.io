@@ -1,4 +1,42 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header-bg.jpg
+  actions:
+    - label: "View Resume"
+      url: "/resume.pdf"
+    - label: "About Me"
+      url: "/about/"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "PhD Student & System Software Security Researcher"
+intro: 
+  - excerpt: 'Specializing in low-level software security, firmware, edge AI accelerators, and embedded systems. Currently researching security aspects of Edge AI systems at Purdue University.'
+feature_row:
+  - image_path: /assets/images/research-icon.jpg
+    alt: "research"
+    title: "Research Focus"
+    excerpt: "Analyzing design and security of Edge AI accelerators, exploring confused deputy attacks, and investigating system-level vulnerabilities in embedded AI hardware."
+    url: "/about/#experience"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/experience-icon.jpg
+    alt: "experience"
+    title: "Professional Experience"
+    excerpt: "Former Firmware Security Engineer at Intel Corporation, developing BIOS/UEFI security features for Intel Core processors and implementing security hardening in Boot Guard."
+    url: "/about/#experience"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/skills-icon.jpg
+    title: "Technical Skills"
+    excerpt: "Expert in C/C++, x86 Assembly, Python, LLVM, CUDA, Linux kernel development, firmware engineering, and hardware security protocols."
+    url: "/about/#skills"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
