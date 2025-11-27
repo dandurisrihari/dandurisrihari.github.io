@@ -13,17 +13,17 @@ classes: wide
 ## Core Competencies
 
 <div class="notice--primary" markdown="1">
-### 🔒 System Security & Firmware
+### System Security & Firmware
 Expert in low-level security, trusted computing, and hardware-software security boundaries
 </div>
 
 <div class="notice--info" markdown="1">
-### 💻 Systems Programming
+### Systems Programming
 Deep expertise in operating systems internals, kernel development, and bare-metal programming
 </div>
 
 <div class="notice--success" markdown="1">
-### 🤖 AI/ML Systems
+### AI/ML Systems
 Research focus on Edge AI accelerators, neural network optimization, and GPU computing
 </div>
 
@@ -186,14 +186,14 @@ Research focus on Edge AI accelerators, neural network optimization, and GPU com
 ## Industry Knowledge
 
 ### Domains
-- ✅ System Software Security
-- ✅ Firmware Development
-- ✅ Hardware Security
-- ✅ Edge AI/ML Systems
-- ✅ Embedded Systems Design
-- ✅ Silicon Validation
-- ✅ Trusted Computing
-- ✅ IoT Systems
+- System Software Security
+- Firmware Development
+- Hardware Security
+- Edge AI/ML Systems
+- Embedded Systems Design
+- Silicon Validation
+- Trusted Computing
+- IoT Systems
 
 ### Industries
 - Semiconductor (Intel Corporation)
