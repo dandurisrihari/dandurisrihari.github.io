@@ -14,10 +14,13 @@ toc_icon: "cog"
 
 ## Summary
 
-PhD student and researcher with extensive experience in **system software development**, specializing in low-level software security, drivers, firmware, operating systems, and runtime libraries. My current research focuses on analyzing the design of the latest **edge AI systems** to understand different design choices and explore their **system security aspects**.
+I'm a **PhD student and researcher** with extensive experience in **system software development**, specializing in low-level software security, drivers, firmware, operating systems, and runtime libraries. My current research at **Purdue University** focuses on analyzing the design of the latest **edge AI systems** to understand different design choices and explore their **system security aspects**.
 
 {: .notice--info}
-**Current Research:** Investigating security vulnerabilities in Edge AI accelerators and exploring potential confused deputy attacks between application processors and AI hardware.
+**Current Research:** Investigating security vulnerabilities in Edge AI accelerators and exploring potential confused deputy attacks between application processors and AI hardware. I've discovered design-level security vulnerabilities in commercial products from major vendors.
+
+{: .notice--success}
+**Research Impact:** My findings have led to ongoing security investigations at companies including Google, Texas Instruments, and Asus, potentially affecting millions of devices worldwide.
 
 ## Education
 

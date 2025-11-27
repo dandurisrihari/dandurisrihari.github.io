@@ -4,5 +4,9 @@ main:
     url: /about/
   - title: "Research & Projects"
     url: /projects/
+  - title: "Skills & Expertise"
+    url: /skills/
+  - title: "Publications"
+    url: /publications/
   - title: "Resume"
     url: /resume.pdf

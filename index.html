@@ -6,37 +6,74 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/header-bg.jpg
   actions:
-    - label: "View Resume"
+    - label: "📄 View Resume"
       url: "/resume.pdf"
-    - label: "About Me"
+    - label: "👨‍💻 About Me"
       url: "/about/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "PhD Student & System Software Security Researcher"
+    - label: "🔬 Publications"
+      url: "/publications/"
+  caption: "System Software Security Researcher"
+excerpt: "**PhD Student & Firmware Security Expert**<br/>Specializing in Edge AI Security, Low-Level Systems, and Hardware-Software Security"
 intro: 
-  - excerpt: 'Specializing in low-level software security, firmware, edge AI accelerators, and embedded systems. Currently researching security aspects of Edge AI systems at Purdue University.'
+  - excerpt: '🎓 **Current Research** at Purdue University focusing on security aspects of Edge AI accelerators and embedded systems<br/>🔒 **Former Intel Corporation** Firmware Security Engineer developing BIOS/UEFI security features<br/>💡 **Discovered** design-level security vulnerabilities in commercial AI accelerators'
 feature_row:
   - image_path: /assets/images/research-icon.jpg
     alt: "research"
-    title: "Research Focus"
-    excerpt: "Analyzing design and security of Edge AI accelerators, exploring confused deputy attacks, and investigating system-level vulnerabilities in embedded AI hardware."
-    url: "/about/#experience"
-    btn_label: "Read More"
+    title: "🔬 Security Research"
+    excerpt: "**Edge AI Accelerator Security** - Analyzing Google Coral, TI TDA4VM, and Asus Tinker Edge for confused deputy attacks and memory corruption vulnerabilities. Discovered security flaws currently under vendor investigation."
+    url: "/projects/"
+    btn_label: "View Research"
     btn_class: "btn--primary"
   - image_path: /assets/images/experience-icon.jpg
     alt: "experience"
-    title: "Professional Experience"
-    excerpt: "Former Firmware Security Engineer at Intel Corporation, developing BIOS/UEFI security features for Intel Core processors and implementing security hardening in Boot Guard."
+    title: "💼 Industry Experience"
+    excerpt: "**Intel Corporation (2+ years)** - Developed security hardening in Boot Guard & TXT. Implemented SINIT ACMs for Intel Core processors. Served as POC for critical x86 paging security features."
     url: "/about/#experience"
-    btn_label: "Read More"
+    btn_label: "Full Experience"
     btn_class: "btn--primary"
   - image_path: /assets/images/skills-icon.jpg
-    title: "Technical Skills"
-    excerpt: "Expert in C/C++, x86 Assembly, Python, LLVM, CUDA, Linux kernel development, firmware engineering, and hardware security protocols."
-    url: "/about/#skills"
-    btn_label: "Read More"
+    title: "🛠️ Technical Expertise"
+    excerpt: "**Systems Programming** - C/C++, x86 Assembly, LLVM, CUDA<br/>**Security** - BIOS/UEFI, TPM, Firmware<br/>**Hardware** - ARM, x86, Edge AI accelerators<br/>**Tools** - Linux Kernel, JTAG, Git"
+    url: "/skills/"
+    btn_label: "All Skills"
     btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/research-icon.jpg
+    alt: "achievements"
+    title: "🏆 Key Achievements & Impact"
+    excerpt: '
+    - 🔍 **Discovered security vulnerabilities** in Edge AI accelerators from major vendors
+
+    - 🏅 **Intel Corporation**: Developed critical BIOS security features for Intel Core processors
+    
+    - 📚 **Published research** on embedded application rehosting and security analysis
+    
+    - 💻 **Open source contributions** in LLVM, Linux kernel drivers, and security tools
+    
+    - 🎯 **GPA 3.84** in MS Computer Engineering (ASU), Dean''s List recognition
+    '
+    url: "/publications/"
+    btn_label: "Publications & Awards"
+    btn_class: "btn--info"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+---
+
+## 📫 Get In Touch
+
+Interested in collaboration, research opportunities, or discussing system software security?
+
+**Email:** [ddanduri@purdue.edu](mailto:ddanduri@purdue.edu)  
+**LinkedIn:** [linkedin.com/in/dandurisrihari](https://linkedin.com/in/dandurisrihari)  
+**GitHub:** [github.com/dandurisrihari](https://github.com/dandurisrihari)  
+**Location:** Lafayette, IN
+
+{: .text-center}
+[Download Full Resume (PDF)](/resume.pdf){: .btn .btn--primary .btn--large}
+{: .text-center}
